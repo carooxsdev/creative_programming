@@ -69,7 +69,7 @@
       console.log(multiply(5, 7))
 
       let years = []
-      let menu = ['starter', 'main', 'dessert', 'drinks', 'sides']
+      var menu = ['starter', 'main', 'dessert', 'drinks', 'sides']
 
       for (i = 0; i < menu.length; i++) {
         console.log(menu[i])
@@ -87,6 +87,18 @@
       menu.forEach(item => {
         console.log(item)
       })
+
+      console.log('----------//------------')
+
+      var myBands = ['Korn', 'SOAD', 'QOTSA', 'Foo fighters']
+      function listArtista(array, b) {
+        for (let i = 0; i < array.length; i++) {
+          console.log(array[i])
+        }
+        console.log(b)
+      }
+
+      listArtista(myBands, 'ola!!!!')
     </script>
   </body>
 </html>
